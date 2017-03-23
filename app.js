@@ -27,6 +27,7 @@ for (var i = 0; i < itemImagePath.length; i++) {
   var filePath = 'images/' + itemImagePath[i];
   new ProductObject(nameOfObjectsArray[i], filePath);
 }
+//localStorage of array
 if(localStorage.sumOfDataArray){
   var someNewArray = JSON.parse(localStorage.sumOfDataArray);
   for(var i = 0; i < someNewArray.length; i++){
